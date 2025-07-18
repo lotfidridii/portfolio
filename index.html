@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <main class="container">
+        <div class="profile-card" id="area-cv">
+            <div class="profile__header">
+                <i class='bx bx-moon' id="theme-button"></i>
+
+                <div class="profile__image">
+                    <img src="assets/img/profile.png" alt="profile image">
+                </div>
+
+                <h1 class="profile__name">Lotfi Dridi</h1>
+                <h2 class="profile__profession">SysAdmin, Network & Cloud Engineer</h2>
+
+                <div class="profile__social">
+                    <a href="https://www.linkedin.com/" target="_blank" class="profile__social-link"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/" target="_blank" class="profile__social-link"><i class='bx bxl-github'></i></a>
+                    <a href="https://twitter.com/" target="_blank" class="profile__social-link"><i class='bx bxl-twitter'></i></a>
+                </div>
+
+                <div class="profile__buttons">
+                    <a download="" href="assets/pdf/lotfi-dridi-cv.pdf" class="button button--primary">
+                        Download CV <i class='bx bx-download'></i>
+                    </a>
+                    <button class="button button--ghost" id="contact-button">
+                        Contact Me
+                    </button>
+                </div>
+            </div>
+
+            <div class="profile__tabs">
+                <ul class="profile__tabs-list">
+                    <li class="profile__tabs-item active-tab" data-target="#skills">
+                        <i class='bx bxs-wrench'></i> Skills
+                    </li>
+                    <li class="profile__tabs-item" data-target="#experience">
+                        <i class='bx bxs-briefcase'></i> Experience
+                    </li>
+                    <li class="profile__tabs-item" data-target="#certifications">
+                        <i class='bx bxs-certification'></i> Certifications
+                    </li>
+                </ul>
+            </div>
+
+            <div class="profile__content">
+                <div class="profile__content-item active-content" id="skills">
+                    <h3 class="profile__content-title">Core Competencies</h3>
+                    <ul class="skills__list">
+                        <li><i class='bx bx-check-shield'></i> System Administration (Linux/Windows)</li>
+                        <li><i class='bx bx-cloud'></i> Cloud Platforms (AWS, Azure, GCP)</li>
+                        <li><i class='bx bx-git-repo-forked'></i> Networking (TCP/IP, DNS, VPN)</li>
+                        <li><i class='bx bxs-data'></i> Virtualization (VMware, Hyper-V)</li>
+                        <li><i class='bx bx-code-alt'></i> Scripting (Bash, PowerShell, Python)</li>
+                        <li><i class='bx bxs-lock'></i> Security & Hardening</li>
+                    </ul>
+                </div>
+
+                <div class="profile__content-item" id="experience">
+                    <h3 class="profile__content-title">Professional Experience</h3>
+                    <div class="experience__item">
+                        <h4>Senior Cloud Engineer <span>@ Tech Corp</span></h4>
+                        <p>Managed and scaled cloud infrastructure on AWS, reducing costs by 20%.</p>
+                    </div>
+                     <div class="experience__item">
+                        <h4>Network Administrator <span>@ Solutions Inc</span></h4>
+                        <p>Oversaw the corporate network, ensuring 99.9% uptime.</p>
+                    </div>
+                </div>
+
+                <div class="profile__content-item" id="certifications">
+                    <h3 class="profile__content-title">Certifications</h3>
+                     <ul class="skills__list">
+                        <li><i class='bx bxl-amazon'></i> AWS Certified Solutions Architect</li>
+                        <li><i class='bx bxl-microsoft'></i> Microsoft Certified: Azure Administrator</li>
+                        <li><i class='bx bxl-google-cloud'></i> Google Cloud Certified: Professional Cloud Engineer</li>
+                        <li><i class='bx bx-shield-quarter'></i> CompTIA Security+</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!--==================== CONTACT MODAL ====================-->
+    <div class="contact__modal" id="contact-modal">
+        <div class="contact__modal-content">
+            <h3 class="contact__modal-title">Contact Me</h3>
+            <i class='bx bx-x contact__modal-close' id="contact-close"></i>
+
+            <div class="contact__modal-info">
+                <div class="contact__info-item">
+                    <i class='bx bx-mail-send'></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>your.email@example.com</p>
+                    </div>
+                </div>
+                <div class="contact__info-item">
+                    <i class='bx bx-phone'></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+12 345 67890</p>
+                    </div>
+                </div>
+            </div>
+
+            <form action="" class="contact__form" id="contact-form">
+                <div class="contact__form-div">
+                    <label for="name" class="contact__form-tag">Name</label>
+                    <input type="text" name="user_name" id="name" placeholder="Insert your name" class="contact__form-input" required>
+                </div>
+                <div class="contact__form-div">
+                    <label for="email" class="contact__form-tag">Email</label>
+                    <input type="email" name="user_email" id="email" placeholder="Insert your email" class="contact__form-input" required>
+                </div>
+                <div class="contact__form-div contact__form-area">
+                    <label for="message" class="contact__form-tag">Message</label>
+                    <textarea name="user_message" id="message" cols="30" rows="10" placeholder="Write your message" class="contact__form-input" required></textarea>
+                </div>
+                <p class="contact__message" id="contact-message"></p>
+                <button type="submit" class="button button--primary">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

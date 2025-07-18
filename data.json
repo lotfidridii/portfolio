@@ -2,20 +2,22 @@
   "profile": {
     "name": "Lotfi Dridi",
     "title": "SysAdmin, Network & Cloud Engineer",
-    "location": "Sillicon Valley, California",
+    "location": "Sousse, Tunisia",
     "image": "assets/img/profile.png",
     "cv": "assets/pdf/lotfi-dridi-cv.pdf"
   },
   "socials": {
-    "linkedin": "https://www.linkedin.com/in/lotfi-dridi-9330932a4/",
-    "github": "https://github.com/dridilotfi007",
-    "twitter": "https://twitter.com/dridi_lotfi007"
+    "linkedin": "https://www.linkedin.com/in/lotfi-dridi/",
+    "github": "https://github.com/lotfidridii",
+    "twitter": "https://x.com/dridilotfi01",
+    "instagram": "https://www.instagram.com/dridilotfi01/",
+    "whatsapp": "https://wa.me/yourphonenumber"
   },
 
   "skills": [
     {
-      "icon": "bx-check-shield",
-      "name": "System Administration (Linux/Windows)"
+      "icon": "bxs-server",
+      "name": "System Administration : Linux (Debian, Ubuntu, CentOS), Windows Server, Active Directory"
     },
     {
       "icon": "bx-cloud",
@@ -23,19 +25,39 @@
     },
     {
       "icon": "bx-git-repo-forked",
-      "name": "Networking (TCP/IP, DNS, VPN)"
+      "name": "Networking (TCP/IP, DNS, DHCP, VPN, VLAN, Firewall)"
     },
     {
       "icon": "bxs-data",
-      "name": "Virtualization (VMware, Hyper-V)"
+      "name": "Containerization & Virtualization (Proxmox VE, Docker, Kubernetes, VirtualBox, VMware vSphere)"
+    },
+    {
+        "icon": "bx-code-alt",
+        "name": "Automation & CI/CD (Git, GitLab CI, GitHub Actions, Ansible, Terraform, Jenkins)"
+    },
+    {
+        "icon": "bx-code-alt",
+        "name": "Monitoring & Observability (Zabbix, Nagios, Prometheus)"
     },
     {
       "icon": "bx-code-alt",
-      "name": "Scripting (Bash, PowerShell, Python)"
+      "name": "Scripting & Configuration (Bash, Python, YAML)"
     },
     {
       "icon": "bxs-lock",
-      "name": "Security & Hardening"
+      "name": "Security & Hardening (SSH, SSL, User Management, Access Control)"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University of Technology",
+      "period": "2018 - 2022"
+    },
+    {
+      "degree": "High School Diploma",
+      "institution": "Central High School",
+      "period": "2014 - 2018"
     }
   ],
   "experience": [

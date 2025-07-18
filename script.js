@@ -26,7 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('linkedin-link').href = data.socials.linkedin;
         document.getElementById('github-link').href = data.socials.github;
         document.getElementById('twitter-link').href = data.socials.twitter;
-
+        document.getElementById('instagram-link').href = data.socials.instagram;
+        document.getElementById('whatsapp-link').href = data.socials.whatsapp;
+        
 
 
         // Skills
@@ -46,6 +48,16 @@ document.addEventListener('DOMContentLoaded', () => {
             div.classList.add('experience__item');
             div.innerHTML = `<h4>${exp.title} <span>@ ${exp.company}</span></h4><p>${exp.description}</p>`;
             experienceList.appendChild(div);
+        });
+
+        // Education
+        const educationList = document.getElementById('education-list');
+        educationList.innerHTML = ''; // Clear existing
+        data.education.forEach(edu => {
+            const div = document.createElement('div');
+            div.classList.add('experience__item'); // Re-use existing style
+            div.innerHTML = `<h4>${edu.degree}</h4><p>${edu.institution} (${edu.period})</p>`;
+            educationList.appendChild(div);
         });
 
         // Certifications

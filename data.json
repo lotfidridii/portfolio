@@ -1,0 +1,75 @@
+{
+  "profile": {
+    "name": "Lotfi Dridi",
+    "title": "SysAdmin, Network & Cloud Engineer",
+    "location": "Sillicon Valley, California",
+    "image": "assets/img/profile.png",
+    "cv": "assets/pdf/lotfi-dridi-cv.pdf"
+  },
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/lotfi-dridi-9330932a4/",
+    "github": "https://github.com/dridilotfi007",
+    "twitter": "https://twitter.com/dridi_lotfi007"
+  },
+
+  "skills": [
+    {
+      "icon": "bx-check-shield",
+      "name": "System Administration (Linux/Windows)"
+    },
+    {
+      "icon": "bx-cloud",
+      "name": "Cloud Platforms (AWS, Azure, GCP)"
+    },
+    {
+      "icon": "bx-git-repo-forked",
+      "name": "Networking (TCP/IP, DNS, VPN)"
+    },
+    {
+      "icon": "bxs-data",
+      "name": "Virtualization (VMware, Hyper-V)"
+    },
+    {
+      "icon": "bx-code-alt",
+      "name": "Scripting (Bash, PowerShell, Python)"
+    },
+    {
+      "icon": "bxs-lock",
+      "name": "Security & Hardening"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Cloud Engineer",
+      "company": "Tech Corp",
+      "description": "Managed and scaled cloud infrastructure on AWS, reducing costs by 20%."
+    },
+    {
+      "title": "Network Administrator",
+      "company": "Solutions Inc",
+      "description": "Oversaw the corporate network, ensuring 99.9% uptime."
+    }
+  ],
+  "certifications": [
+    {
+      "icon": "bxl-amazon",
+      "name": "AWS Certified Solutions Architect"
+    },
+    {
+      "icon": "bxl-microsoft",
+      "name": "Microsoft Certified: Azure Administrator"
+    },
+    {
+      "icon": "bxl-google-cloud",
+      "name": "Google Cloud Certified: Professional Cloud Engineer"
+    },
+    {
+      "icon": "bx-shield-quarter",
+      "name": "CompTIA Security+"
+    }
+  ],
+  "contact": {
+    "email": "your.email@example.com",
+    "phone": "+12 345 67890"
+  }
+}

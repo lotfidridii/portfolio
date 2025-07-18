@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Admin</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            font-family: var(--body-font);
+            padding: 2rem;
+        }
+        .admin-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-background);
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .form-section {
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 1rem;
+        }
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        label {
+            display: block;
+            margin-bottom: .5rem;
+            font-weight: 600;
+        }
+        input, textarea {
+            width: 100%;
+            padding: .5rem;
+            border-radius: .5rem;
+            border: 1px solid var(--border-color);
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+        .list-item {
+            padding: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: .5rem;
+            margin-bottom: 1rem;
+        }
+        .list-item h4 {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="admin-container">
+        <h1>Portfolio Content Editor</h1>
+        <form id="admin-form">
+            <!-- Sections will be dynamically generated here -->
+        </form>
+        <button id="save-button" class="button button--primary">Save and Download JSON</button>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>

@@ -251,6 +251,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🤝 Contributing
 
 Feel free to fork this project and submit pull requests for improvements!
+
 Please note that direct pushes to the `main` branch are restricted to maintain project integrity.
 
 ## 📞 Support

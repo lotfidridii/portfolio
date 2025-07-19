@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const contactMessage = document.getElementById('contact-message');
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', '#contact-form', 'YOUR_PUBLIC_KEY')
+            emailjs.sendForm('service_2ef4dog', 'template_4bhnq3u', '#contact-form', '_7XWo1TlM6iEzuZRY')
                 .then(() => {
                     contactMessage.textContent = 'Message sent successfully ';
                     setTimeout(() => { contactMessage.textContent = ''; }, 5000);

@@ -118,10 +118,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Initialize Modal
         const modal = document.getElementById('contact-modal');
+        const backdrop = document.getElementById('modal-backdrop');
         const openButton = document.getElementById('contact-button');
         const closeButton = document.getElementById('contact-close');
         const toggleModal = () => {
             modal.classList.toggle('show-modal');
+            backdrop.classList.toggle('show');
             document.body.classList.toggle('body-no-scroll');
         };
         openButton.addEventListener('click', toggleModal);

@@ -1,5 +1,7 @@
 # Dynamic Portfolio Website
 
+![Portfolio Preview](assets/img/preview.png)
+
 A modern, responsive portfolio website with dynamic content loading and an admin interface for easy content management. Built with vanilla HTML, CSS, and JavaScript - no frameworks required!
 
 ## ✨ Features

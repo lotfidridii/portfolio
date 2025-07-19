@@ -1,97 +1,101 @@
 {
-  "profile": {
-    "name": "Lotfi Dridi",
-    "title": "SysAdmin, Network & Cloud Engineer",
-    "location": "Sousse, Tunisia",
-    "image": "assets/img/profile.png",
-    "cv": "assets/pdf/lotfi-dridi-cv.pdf"
-  },
-  "socials": {
-    "linkedin": "https://www.linkedin.com/in/lotfi-dridi/",
-    "github": "https://github.com/lotfidridii",
-    "twitter": "https://x.com/dridilotfi01",
-    "instagram": "https://www.instagram.com/dridilotfi01/",
-    "whatsapp": "https://wa.me/yourphonenumber"
-  },
-
-  "skills": [
-    {
-      "icon": "bxs-server",
-      "name": "System Administration : Linux (Debian, Ubuntu, CentOS), Windows Server, Active Directory"
+    "profile": {
+      "name": "Lotfi Dridi",
+      "title": "SysAdmin, Network & Cloud Engineer",
+      "location": "Sousse, Tunisia",
+      "image": "assets/img/profile.png",
+      "cv": "assets/pdf/lotfi-dridi-cv.pdf"
     },
-    {
-      "icon": "bx-cloud",
-      "name": "Cloud Platforms (AWS, Azure, GCP)"
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/lotfi-dridi/",
+      "github": "https://github.com/lotfidridii",
+      "twitter": "https://x.com/dridilotfi01",
+      "instagram": "https://www.instagram.com/lotfi_dridy/",
+      "whatsapp": "https://wa.me/+21628744087"
     },
-    {
-      "icon": "bx-git-repo-forked",
-      "name": "Networking (TCP/IP, DNS, DHCP, VPN, VLAN, Firewall)"
-    },
-    {
-      "icon": "bxs-data",
-      "name": "Containerization & Virtualization (Proxmox VE, Docker, Kubernetes, VirtualBox, VMware vSphere)"
-    },
-    {
+    "skills": [
+      {
+        "icon": "bxs-server",
+        "name": "System Administration: Linux (Debian, Ubuntu, CentOS), Windows Server, Active Directory"
+      },
+      {
+        "icon": "bxs-cloud",
+        "name": "Cloud & Container Platforms: AWS, Azure, GCP, Docker, Kubernetes, Rancher"
+      },
+      {
+        "icon": "bx-network-chart",
+        "name": "Networking: TCP/IP, DNS, DHCP, VPN, VLAN, Firewalls"
+      },
+      {
+        "icon": "bx-chip",
+        "name": "Virtualization & Backup: Proxmox VE, VMware vSphere, Veeam Backup"
+      },
+      {
+        "icon": "bx-revision",
+        "name": "Automation & CI/CD: Git, GitLab CI, GitHub Actions, Jenkins, Ansible, Terraform"
+      },
+      {
+        "icon": "bx-line-chart",
+        "name": "Monitoring & Observability: Zabbix, Nagios, Prometheus"
+      },
+      {
         "icon": "bx-code-alt",
-        "name": "Automation & CI/CD (Git, GitLab CI, GitHub Actions, Ansible, Terraform, Jenkins)"
-    },
-    {
-        "icon": "bx-code-alt",
-        "name": "Monitoring & Observability (Zabbix, Nagios, Prometheus)"
-    },
-    {
-      "icon": "bx-code-alt",
-      "name": "Scripting & Configuration (Bash, Python, YAML)"
-    },
-    {
-      "icon": "bxs-lock",
-      "name": "Security & Hardening (SSH, SSL, User Management, Access Control)"
+        "name": "Scripting & Configuration: Bash, Python, YAML"
+      },
+      {
+        "icon": "bx-lock-alt",
+        "name": "Security & Hardening: SSH, SSL, User/Access Management, System Hardening"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Engineering Degree in Cloud Computing & Networks",
+        "institution": "EPI Digital School – Sousse",
+        "period": "2024 – 2026"
+      },
+      {
+        "degree": "Master’s Year 1 – Cloud Computing & Distributed Applications",
+        "institution": "ISET Sousse",
+        "period": "2023 – 2024"
+      },
+      {
+        "degree": "Bachelor’s Degree in Information Technology (Networks and IT Services)",
+        "institution": "ISET Sousse",
+        "period": "2020 – 2023"
+      }
+    ],
+    "experience": [
+      {
+        "title": "System & Network Administrator",
+        "company": "Proxym Group",
+        "description": "Administered Linux (Debian, RHEL, Ubuntu) and Windows servers while maintaining internal network infrastructure, including switching, routing, and VLAN configuration. Deployed virtualized environments with Proxmox and managed Docker containers, as well as set up and maintained Kubernetes clusters both on-premise and in the cloud. Oversaw multi-cluster management using Rancher and monitored system and network performance with Zabbix. Automated workflows using Bash, Ansible, and Terraform, contributed to building an internal CI/CD pipeline with GitLab, and authored technical documentation and operating procedures."
+      },
+      {
+        "title": "Web Development & IT Support ",
+        "company": "Heaven of Web",
+        "description": "Designed and developed websites, along with creating graphics and branding materials such as logos and posters to establish a cohesive visual identity. Managed professional social media accounts to enhance online presence and engagement. Deployed and maintained web applications, ensuring smooth operation and reliability. Provided comprehensive technical support across multiple levels (L1, L2, and L3), handled domain management and SSL certificate setup to secure websites, and implemented data backup and recovery solutions to safeguard information and maintain business continuity."
+      }
+    ],
+    "certifications": [
+      {
+        "icon": "bxl-amazon",
+        "name": "AWS Cloud Technical Essentials"
+      },
+      {
+        "icon": "bxl-microsoft",
+        "name": " Microsoft Certified: Azure Fundamentals"
+      },
+      {
+        "icon": "bxl-google-cloud",
+        "name": "Google Cloud Computing Foundations Certificate"
+      },
+      {
+        "icon": "bx-ibm",
+        "name": " IBM DevOps and Software Engineering Specialization"
+      }
+    ],
+    "contact": {
+      "email": "dridilotfi01@gmail.com",
+      "phone": "+216 27 245 718"
     }
-  ],
-  "education": [
-    {
-      "degree": "Bachelor of Science in Computer Science",
-      "institution": "University of Technology",
-      "period": "2018 - 2022"
-    },
-    {
-      "degree": "High School Diploma",
-      "institution": "Central High School",
-      "period": "2014 - 2018"
-    }
-  ],
-  "experience": [
-    {
-      "title": "Senior Cloud Engineer",
-      "company": "Tech Corp",
-      "description": "Managed and scaled cloud infrastructure on AWS, reducing costs by 20%."
-    },
-    {
-      "title": "Network Administrator",
-      "company": "Solutions Inc",
-      "description": "Oversaw the corporate network, ensuring 99.9% uptime."
-    }
-  ],
-  "certifications": [
-    {
-      "icon": "bxl-amazon",
-      "name": "AWS Certified Solutions Architect"
-    },
-    {
-      "icon": "bxl-microsoft",
-      "name": "Microsoft Certified: Azure Administrator"
-    },
-    {
-      "icon": "bxl-google-cloud",
-      "name": "Google Cloud Certified: Professional Cloud Engineer"
-    },
-    {
-      "icon": "bx-shield-quarter",
-      "name": "CompTIA Security+"
-    }
-  ],
-  "contact": {
-    "email": "your.email@example.com",
-    "phone": "+12 345 67890"
   }
-}

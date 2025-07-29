@@ -3,7 +3,7 @@
 ![Portfolio Preview](assets/img/preview.png)
 
 A modern, responsive portfolio website with dynamic content loading and an admin interface for easy content management. Built with vanilla HTML, CSS, and JavaScript - no frameworks required!
-
+https://lotfidridii.github.io/portfolio/
 ## ✨ Features
 
 - **Dynamic Content Loading**: All content is loaded from a JSON file, making updates easy
